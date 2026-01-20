@@ -27,7 +27,7 @@
 Why were these data types selected?
 
 ### Answer
-_Write your explanation here._
+Population and Life Expectancy are data types that can suggest overall health of a country. For practice using SQL, the Population data are integers, whole numbers, while the Life Expectancy data are decimals.
 
 ### Screenshot
 _Show the table structure or DESCRIBE output._
@@ -36,7 +36,7 @@ _Show the table structure or DESCRIBE output._
 DESCRIBE country;
 ```
 
-![Q1 Screenshot](screenshots/q1_datatypes.png)
+![Q1 Screenshot](screenshots/ex01_describe.png)
 
 ---
 
@@ -46,7 +46,7 @@ DESCRIBE country;
 Why do you think this data type was selected?
 
 ### Answer
-_Write your explanation here._
+IndepYear is an integer and and the data is describing the year in which countries are becoming independent. You wouldn't expect to see decimals or characters for a year.
 
 ### Screenshot
 
@@ -54,7 +54,7 @@ _Write your explanation here._
 DESCRIBE country;
 ```
 
-![Q2 Screenshot](screenshots/q2_indepyear.png)
+![Q2 Screenshot](screenshots/ex01_describe.png)
 
 ---
 
@@ -64,7 +64,7 @@ DESCRIBE country;
 Explain why your proposed data type might be better in some situations.
 
 ### Answer
-_Write your explanation here._
+I don't think a more appropriate data type can be used for IndepYear than integer. Maybe Date/Time and include the exact day, but that takes up space and I wouldn't recommend.
 
 ---
 
@@ -82,7 +82,7 @@ ORDER BY Name;
 
 ### Screenshot
 
-![Q4 Screenshot](screenshots/q4_cities_sorted.png)
+![Q4 Screenshot](screenshots/ex01_order.png)
 
 ---
 
@@ -100,7 +100,7 @@ ORDER BY GovernmentForm;
 
 ### Screenshot
 
-![Q5 Screenshot](screenshots/q5_government_forms.png)
+![Q5 Screenshot](screenshots/ex01_govtforms.png)
 
 ---
 
@@ -118,7 +118,7 @@ WHERE Continent = 'Oceania';
 
 ### Screenshot
 
-![Q6 Screenshot](screenshots/q6_oceania.png)
+![Q6 Screenshot](screenshots/ex01_oceania.png)
 
 ---
 
@@ -135,7 +135,7 @@ FROM city;
 
 ### Screenshot
 
-![Q7 Screenshot](screenshots/q7_city_countrycode.png)
+![Q7 Screenshot](screenshots/ex01_countrycode.png)
 
 ---
 
@@ -153,7 +153,7 @@ WHERE Name = 'Nashville-Davidson';
 
 ### Screenshot
 
-![Q8 Screenshot](screenshots/q8_update_city.png)
+![Q8 Screenshot](screenshots/ex01_update.png)
 
 ---
 
@@ -171,7 +171,7 @@ VALUES ('NAR', 'Narnia', 'Europe', 'Fantasy', 1000000);
 
 ### Screenshot
 
-![Q9 Screenshot](screenshots/q9_insert_narnia.png)
+![Q9 Screenshot](screenshots/ex01_narnia.png)
 
 ---
 
@@ -188,4 +188,4 @@ WHERE Code = 'NAR';
 
 ### Screenshot
 
-![Q10 Screenshot](screenshots/q10_delete_narnia.png)
+![Q10 Screenshot](screenshots/ex01_delete.png)
