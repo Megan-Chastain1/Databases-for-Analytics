@@ -14,6 +14,7 @@
 - For each SQL-based question:
   - Include the SQL command in a fenced code block
   - Include a **screenshot** showing the command and its results
+- Store Screenshots in the `Screenshots/` folder and embed them below each answer.
 - Store screenshots in the `Screenshots/` folder and embed them below each answer.
 
 ---
