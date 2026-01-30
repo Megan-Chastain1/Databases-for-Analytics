@@ -24,16 +24,16 @@
 When importing the documents from `restaurants-json.json`, **how many documents were imported into your collection**?
 
 ### Answer
-_Write the number of documents imported._
+25358
 
 ### Screenshot
 _Show evidence of how you determined this (for example, a count query)._
 
 ```javascript
-// Your MongoDB command here
+db["restaurants"].estimatedDocumentCount()
 ```
 
-![Q1 Screenshot](Screenshots/q1_document_count.png)
+![Q1 Screenshot](Screenshots/Q1_03.PNG)
 
 ---
 
@@ -44,12 +44,12 @@ Before writing queries on the data, **what command do you use to set the MongoDB
 ### MongoDB Command
 
 ```javascript
-// Your MongoDB command here
+use 4461
 ```
 
 ### Screenshot
 
-![Q2 Screenshot](screenshots/q2_use_database.png)
+![Q2 Screenshot](Screenshots/q2_03.PNG)
 
 ---
 
@@ -60,13 +60,12 @@ Using your `restaurants` collection in the `44661` database, write the MongoDB q
 ### MongoDB Query
 
 ```javascript
-// Your MongoDB query here
+db["restaurants"].find({borough:'Queens'})
 ```
 
 ### Screenshot
 
-![Q3 Screenshot](screenshots/q3_queens_restaurants.png)
-
+![Q3 Screenshot](Screenshots/q3_03.PNG)
 ---
 
 ## Question 4
@@ -76,12 +75,12 @@ Using your `restaurants` collection in the `44661` database, write the MongoDB q
 ### MongoDB Query
 
 ```javascript
-// Your MongoDB query here
+db["restaurants"].countDocuments({borough:'Queens'})
 ```
 
 ### Screenshot
 
-![Q4 Screenshot](screenshots/q4_queens_count.png)
+![Q4 Screenshot](Screenshots/q4_03.PNG)
 
 ---
 
@@ -92,12 +91,14 @@ Using your `restaurants` collection in the `44661` database, write the MongoDB q
 ### MongoDB Query
 
 ```javascript
-// Your MongoDB query here
+db.restaurants.aggregate([
+  { $match: { borough:'Queens'}},
+  { $count: "Hamburgers" }])
 ```
 
 ### Screenshot
 
-![Q5 Screenshot](screenshots/q5_queens_hamburgers.png)
+![Q5 Screenshot](Screenshots/q5_03.PNG)
 
 ---
 
@@ -110,12 +111,12 @@ Using your `restaurants` collection in the `44661` database, write the MongoDB q
 ### MongoDB Query
 
 ```javascript
-// Your MongoDB query here
+db.restaurants.countDocuments({ zipcode: "10460" })
 ```
 
 ### Screenshot
 
-![Q6 Screenshot](screenshots/q6_zipcode_count.png)
+![Q6 Screenshot](Screenshots/q6_03.PNG)
 
 ---
 
@@ -139,12 +140,12 @@ Your output should resemble:
 ### MongoDB Query
 
 ```javascript
-// Your MongoDB query here
+db.restaurants.find({ "address.zipcode": "10460" }, { name: 1, _id:0 })
 ```
 
 ### Screenshot
 
-![Q7 Screenshot](screenshots/q7_zipcode_names.png)
+![Q7 Screenshot](Screenshots/q7_03.png)
 
 ---
 
@@ -159,9 +160,13 @@ Your results should include:
 ### MongoDB Query
 
 ```javascript
-// Your MongoDB query here
+
+db.restaurants.find(
+  { name: { $regex: /IHOP/i } },
+  { name: 1, _id: 0 }
+)
 ```
 
 ### Screenshot
 
-![Q8 Screenshot](screenshots/q8_ihop_case_insensitive.png)
+![Q8 Screenshot](Screenshots/q8_03.png)
