@@ -33,7 +33,7 @@ _Show evidence of how you determined this (for example, a COUNT query)._
 SELECT count(Name) From city;
 ```
 
-![Q1 Screenshot](Screenshots/ex02_countcity.png)
+![Q1 Screenshot](Screenshots/ex02_countcity.PNG)
 
 ---
 
@@ -55,7 +55,7 @@ JOIN
 
 ### Screenshot
 
-![Q2 Screenshot](Screenshots/ex02_join1.png)
+![Q2 Screenshot](Screenshots/ex02_join1.PNG)
 
 ---
 
@@ -79,7 +79,7 @@ where
 
 ### Screenshot
 
-![Q3 Screenshot](Screenshots/ex02_join2.png)
+![Q3 Screenshot](Screenshots/ex02_join2.PNG)
 
 ---
 
@@ -122,7 +122,7 @@ FROM country;
 
 ### Screenshot
 
-![Q5 Screenshot](Screenshots/ex02_govt.png)
+![Q5 Screenshot](Screenshots/ex02_govt.PNG)
 
 ---
 
@@ -145,7 +145,7 @@ from city
 
 ### Screenshot
 
-![Q6 Screenshot](Screenshots/ex02_join3.png)
+![Q6 Screenshot](Screenshots/ex02_join3.PNG)
 
 ---
 
@@ -166,7 +166,7 @@ ORDER BY country.Name;
 
 ### Screenshot
 
-![Q7 Screenshot](Screenshots/ex02_join4.png)
+![Q7 Screenshot](Screenshots/ex02_join4.PNG)
 
 ---
 
@@ -186,7 +186,7 @@ ORDER BY Language;
 
 ### Screenshot
 
-![Q8 Screenshot](Screenshots/ex02_languagecount.png)
+![Q8 Screenshot](Screenshots/ex02_languagecount.PNG)
 
 ---
 
@@ -210,7 +210,7 @@ ORDER BY OfficialLanguagesCount DESC;
 
 ### Screenshot
 
-![Q9 Screenshot](Screenshots/ex02_languagecount2.png)
+![Q9 Screenshot](Screenshots/ex02_languagecount2.PNG)
 
 ---
 
@@ -233,7 +233,7 @@ Where
 
 ### Screenshot
 
-![Q10 Screenshot](Screenshots/ex02_misisng.png)
+![Q10 Screenshot](Screenshots/ex02_misisng.PNG)
 
 ---
 
@@ -259,4 +259,4 @@ From
 
 ### Screenshot
 
-![Q11 Screenshot](Screenshots/ex02_percentage2.png)
+![Q11 Screenshot](Screenshots/ex02_percentage2.PNG)

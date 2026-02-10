@@ -36,7 +36,7 @@ _Show the table structure or DESCRIBE output._
 DESCRIBE country;
 ```
 
-![Q1 Screenshot](Screenshots/ex01_describe.png)
+![Q1 Screenshot](Screenshots/ex01_describe.PNG)
 
 ---
 
@@ -54,7 +54,7 @@ IndepYear is an integer and and the data is describing the year in which countri
 DESCRIBE country;
 ```
 
-![Q2 Screenshot](Screenshots/ex01_describe.png)
+![Q2 Screenshot](Screenshots/ex01_describe.PNG)
 
 ---
 
@@ -82,7 +82,7 @@ ORDER BY Name;
 
 ### Screenshot
 
-![Q4 Screenshot](Screenshots/ex01_order.png)
+![Q4 Screenshot](Screenshots/ex01_order.PNG)
 
 ---
 
@@ -100,7 +100,7 @@ ORDER BY GovernmentForm;
 
 ### Screenshot
 
-![Q5 Screenshot](Screenshots/ex01_govtforms.png)
+![Q5 Screenshot](Screenshots/ex01_govtforms.PNG)
 
 ---
 
@@ -118,7 +118,7 @@ WHERE Continent = 'Oceania';
 
 ### Screenshot
 
-![Q6 Screenshot](Screenshots/ex01_oceania.png)
+![Q6 Screenshot](Screenshots/ex01_oceania.PNG)
 
 ---
 
@@ -135,7 +135,7 @@ FROM city;
 
 ### Screenshot
 
-![Q7 Screenshot](Screenshots/ex01_countrycode.png)
+![Q7 Screenshot](Screenshots/ex01_countrycode.PNG)
 
 ---
 
@@ -153,7 +153,7 @@ WHERE Name = 'Nashville-Davidson';
 
 ### Screenshot
 
-![Q8 Screenshot](Screenshots/ex01_update.png)
+![Q8 Screenshot](Screenshots/ex01_update.PNG)
 
 ---
 
@@ -171,7 +171,7 @@ VALUES ('NAR', 'Narnia', 'Europe', 'Fantasy', 1000000);
 
 ### Screenshot
 
-![Q9 Screenshot](Screenshots/ex01_narnia.png)
+![Q9 Screenshot](Screenshots/ex01_narnia.PNG)
 
 ---
 
@@ -188,4 +188,4 @@ WHERE Code = 'NAR';
 
 ### Screenshot
 
-![Q10 Screenshot](Screenshots/ex01_delete.png)
+![Q10 Screenshot](Screenshots/ex01_delete.PNG)
