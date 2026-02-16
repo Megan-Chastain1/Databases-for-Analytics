@@ -47,7 +47,7 @@ FROM emails
 
 ### Screenshot
 
-![Q1 Screenshot](Screenshots/05_q1.PNG)
+![Q1 Screenshot](exercises/Screenshots/05_q1.PNG)
 
 ---
 
