@@ -78,4 +78,4 @@ from title_ratings
 Group by
 averagerating
 - -
-  [Number of films in each rating category](Screenshots/07_count_groupby.PNG)
+![Number of Films in Each Rating Category](Screenshots/07_count_groupby.PNG)
